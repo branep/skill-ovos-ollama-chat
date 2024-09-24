@@ -144,16 +144,16 @@ class OllamaChatSkill(FallbackSkill):
                 if look_ahead["message"]["content"]:
                     if token != "":
                         if (
-                            "." in token.text
-                            or "?" in token.text
-                            or "!" in token.text
-                            or "\n" in token.text
+                            "." in token
+                            or "?" in token
+                            or "!" in token
+                            or "\n" in token
                         ):
                             if token_count > 0:
                                 sentence_end = True
 
                         token_count = token_count + 1
-                        phrase = phrase + token.text
+                        phrase = phrase + token
                         if token_count > 20 or look_ahead["done"] or sentence_end:
                             self.log.info(f"Speaking: {phrase}")
                             self.speak_dialog(
