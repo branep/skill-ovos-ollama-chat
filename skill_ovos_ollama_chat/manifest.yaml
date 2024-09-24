@@ -1,0 +1,7 @@
+dependencies:
+  #   # Pip dependencies on PyPI
+  python:
+    - ollama
+    - git+https://github.com/tasos-py/Search-Engines-Scraper@master#egg=search-engines
+    - BeautifulSoup4
+    - requests

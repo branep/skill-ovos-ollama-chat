@@ -1,0 +1,62 @@
+skillMetadata:
+  sections:
+    - name: Description
+      fields:
+        - name: Description
+          type: label
+          label: Ollama OVOS skill chat settings
+          value: "false"
+
+    - name: Settings
+      fields:
+        - name: host
+          type: text
+          label: ollama host fqdn or ip and port if needed
+          value: "ollama.lan"
+
+        - name: model
+          type: text
+          label: ollama Model
+          value: "phi3"
+
+        - name: preamble
+          type: text
+          label: model preamble
+          value: "Your namer is Jarvis. You are a helpful language model."
+
+        - name: priority Description
+          type: label
+          value: "false"
+          label: |
+            Priority Description
+            <pre>
+            ========  ========   ================================================
+            Priority  Who?       Purpose
+            ========  ========   ================================================
+              1-4     RESERVED   Unused for now, slot for pre-Padatious if needed
+                5     MYCROFT    Padatious near match (conf > 0.8)
+             6-88     USER       General
+               89     MYCROFT    Padatious loose match (conf > 0.5)
+            90-99     USER       Uncaught intents
+              100+    MYCROFT    Fallback Unknown or other future use
+            ========  ========   ================================================
+            </pre>
+
+            Handlers with the numerically lowest priority are invoked first.
+            Multiple fallbacks can exist at the same priority, but no order is
+            guaranteed.
+
+        - name: priority
+          type: number
+          value: "90"
+          label: "Priority"
+
+        - name: context_timeout
+          type: number
+          label: "Context Timeout in seconds"
+          value: 900
+
+        - name: fasttext_url
+          type: text
+          label: "http URL and port of FastText server"
+          value: ""
