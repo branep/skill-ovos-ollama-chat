@@ -42,7 +42,7 @@ class OllamaChatSkill(FallbackSkill):
         self.preamble = self.settings.get(
             "preamble", "Your name is Jarvis. You are a helpful language model."
         )
-        self.chat_history = [{"user": self.preamble}]
+        self.chat_history = [{"role": "user", "message": self.preamble}]
         if self.settings.get("priority") != self.fallback_priority:
             self.log.info("Priority setting has changed. Resetting fallback")
             self.fallback_priority = self.settings.get("priority", 90)
