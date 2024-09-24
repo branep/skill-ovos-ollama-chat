@@ -35,7 +35,7 @@ class OllamaChatSkill(FallbackSkill):
         self.settings_change_callback = self.on_settings_changed
 
     def on_settings_changed(self):
-        self.host = self.settings.get("host")
+        self.url = self.settings.get("url")
         self.fasttext_url = self.settings.get("fasttext_url")
 
         self.context_timeout = self.settings.get("context_timout", 600)
@@ -56,7 +56,7 @@ class OllamaChatSkill(FallbackSkill):
 
     def ollama_connect(self):
         try:
-            self.ollama = ocli(self.host)
+            self.ollama = ocli(self.url)
             self.log.info("Connected to Ollama.")
         except Exception as e:
             self.log.error("Failed to connect Ollama client. " f"Got exception: {e}")
@@ -141,10 +141,7 @@ class OllamaChatSkill(FallbackSkill):
         try:
             for look_ahead in self.chat():
                 self.log.debug(f"Streaming from {self.model}: {look_ahead}")
-                if (
-                    look_ahead.event_type == "text-generation"
-                    or look_ahead.event_type == "stream-end"
-                ):
+                if look_ahead.end == True:
                     if token != "":
                         if (
                             "." in token.text
@@ -169,11 +166,6 @@ class OllamaChatSkill(FallbackSkill):
                             phrase = ""
                             sentence_end = False
                     token = look_ahead
-
-                elif look_ahead.event_type == "search-results":
-                    self.log.info("Web search found docs.")
-                    for doc in token.documents:
-                        self.doc_snippets.append(doc["snippet"])
 
             return True
         except Exception as e:

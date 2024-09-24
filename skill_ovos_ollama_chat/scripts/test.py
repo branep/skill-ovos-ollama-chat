@@ -6,7 +6,7 @@ response = client.chat(
     messages=[
         {
             "role": "user",
-            "content": "Why is the sky blue?",
+            "content": "What is the biggest mammal on earth?",
         },
     ],
     keep_alive=-1,
@@ -14,4 +14,5 @@ response = client.chat(
 )
 
 for chunk in response:
-    print (chunk['message']['content'], end='', flush=True)
+    # print (chunk['message']['content'], end='', flush=True)
+    print(chunk)
