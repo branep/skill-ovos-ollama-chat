@@ -59,7 +59,7 @@ class OllamaChatSkill(FallbackSkill):
             self.ollama = ocli(self.host)
             self.log.info("Connected to Ollama.")
         except Exception as e:
-            self.log.error("Failed to connect Co:here client. " f"Got exception: {e}")
+            self.log.error("Failed to connect Ollama client. " f"Got exception: {e}")
 
     def detect_lang(self, text):
         self.log.debug(f"Detecting language for: {text}")
@@ -99,7 +99,7 @@ class OllamaChatSkill(FallbackSkill):
             receive the query."
 
         try:
-            return self.ollama(
+            return self.ollama.chat(
                 model=self.model,
                 messages=self.chat_history,
                 keep_alive=-1,
