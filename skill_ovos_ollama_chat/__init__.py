@@ -141,7 +141,7 @@ class OllamaChatSkill(FallbackSkill):
         try:
             for look_ahead in self.chat():
                 self.log.debug(f"Streaming from {self.model}: {look_ahead}")
-                if look_ahead.end == True:
+                if look_ahead.done == True:
                     if token != "":
                         if (
                             "." in token.text
@@ -154,11 +154,11 @@ class OllamaChatSkill(FallbackSkill):
 
                         token_count = token_count + 1
                         phrase = phrase + token.text
-                        if token_count > 20 or look_ahead.is_finished or sentence_end:
+                        if token_count > 20 or look_ahead.done or sentence_end:
                             self.log.info(f"Speaking: {phrase}")
                             self.speak_dialog(
                                 phrase,
-                                expect_response=look_ahead.is_finished,
+                                expect_response=look_ahead.done,
                                 wait=True,
                             )
                             self.update_chat_history("assistant", phrase)
