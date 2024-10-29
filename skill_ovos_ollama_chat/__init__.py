@@ -139,9 +139,10 @@ class OllamaChatSkill(FallbackSkill):
         self.update_chat_history("user", message.data["utterance"])
 
         try:
-            for look_ahead in self.chat():
+            for chunk in self.chat():
+                look_ahead = chunk["message"]["content"]
                 self.log.debug(f"Streaming from {self.model}: {look_ahead}")
-                if look_ahead["message"]["content"]:
+                if look_ahead:
                     if token != "":
                         if (
                             "." in token
@@ -165,7 +166,7 @@ class OllamaChatSkill(FallbackSkill):
                             token_count = 0
                             phrase = ""
                             sentence_end = False
-                    token = look_ahead["message"]["content"]
+                    token = look_ahead
 
             return True
         except Exception as e:
