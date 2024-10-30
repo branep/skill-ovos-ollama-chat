@@ -164,7 +164,7 @@ class OllamaChatSkill(FallbackSkill):
                             self.speak_dialog(
                                 phrase,
                                 expect_response=chunk["done"],
-                                wait=True,
+                                wait=chunk["done"],
                             )
                             self.update_chat_history("assistant", phrase)
                             token_count = 0
