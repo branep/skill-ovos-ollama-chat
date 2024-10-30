@@ -1,4 +1,7 @@
 from ollama import Client
+import re
+
+look_ahead = ""
 
 
 def chat():
@@ -12,7 +15,7 @@ def chat():
             },
             {
                 "role": "user",
-                "content": "As briefly as possible, what is the tallest building in the world",
+                "content": "How do you change a light bulb?",
             },
         ],
         keep_alive=-1,
@@ -21,8 +24,13 @@ def chat():
 
 
 for chunk in chat():
-    # print(f"\"{chunk['message']['content']}\"", end="")
-    print(chunk["message"]["content"], end="")
-    # print(f'"{chunk}"')
-    if chunk["done"]:
-        print("End")
+    if look_ahead != "":
+        token = chunk["message"]["content"]
+        if "." in token and bool(re.search("[0-9]", look_ahead)):
+            print(f"Found numbered list: {chunk}")
+        # print(f"\"{chunk['message']['content']}\"", end="")
+        print(chunk["message"]["content"], end="")
+        # print(f'"{chunk}"')
+        if chunk["done"]:
+            print("End")
+    look_ahead = chunk["message"]["content"]

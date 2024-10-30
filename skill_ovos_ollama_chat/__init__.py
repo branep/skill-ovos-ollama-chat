@@ -155,7 +155,7 @@ class OllamaChatSkill(FallbackSkill):
                             or "!" in token
                             or "\n" in token
                         ):
-                            if bool(re.search("[0-9]\.", token)):
+                            if "." in token and bool(re.search("[0-9]", look_ahead)):
                                 self.log.debug(
                                     "Skipping potential ordered list item cut."
                                 )
