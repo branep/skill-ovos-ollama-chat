@@ -137,7 +137,7 @@ class OllamaChatSkill(FallbackSkill):
             self.reset_chat()
 
         self.update_chat_history("user", message.data["utterance"])
-
+        self.log.debug(f"Chat History: {self.chat_history}")
         try:
             for chunk in self.chat():
                 self.log.debug(f"Streaming from {self.model}: {look_ahead}")
