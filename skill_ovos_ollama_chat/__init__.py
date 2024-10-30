@@ -141,7 +141,7 @@ class OllamaChatSkill(FallbackSkill):
         self.log.debug(f"Chat History: {self.chat_history}")
         try:
             for chunk in self.chat():
-                self.log.info(chunk)
+                self.log.debug(f"Received chunk: {chunk}")
                 if chunk["message"]["content"] in ["\n", "\r\n"]:
                     continue
                 look_ahead = chunk["message"]["content"]
@@ -160,7 +160,7 @@ class OllamaChatSkill(FallbackSkill):
                         token_count = token_count + 1
                         phrase = phrase + token
                         if token_count > 20 or chunk["done"] or sentence_end:
-                            self.log.info(f"Speaking: {phrase}")
+                            self.log.debug(f"Speaking: {phrase}")
                             self.speak_dialog(
                                 phrase,
                                 expect_response=chunk["done"],
