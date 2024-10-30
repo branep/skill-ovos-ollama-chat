@@ -125,6 +125,7 @@ class OllamaChatSkill(FallbackSkill):
 
     def process_stream(self, message):
         phrase = ""
+        look_ahead = ""
         token_count = 0
         sentence_end = False
         token = ""
@@ -137,13 +138,13 @@ class OllamaChatSkill(FallbackSkill):
             self.reset_chat()
 
         self.update_chat_history("user", message.data["utterance"])
-        self.log.info(f"Chat History: {self.chat_history}")
+        self.log.debug(f"Chat History: {self.chat_history}")
         try:
             for chunk in self.chat():
                 if chunk in ["\n", "\r\n"]:
                     continue
-                self.log.info(f"Streaming from {self.model}: {look_ahead}")
                 look_ahead = chunk["message"]["content"]
+                self.log.debug(f"Streaming from {self.model}: {look_ahead}")
                 if look_ahead:
                     if token != "":
                         if (

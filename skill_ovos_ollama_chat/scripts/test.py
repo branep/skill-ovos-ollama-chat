@@ -22,6 +22,7 @@ def chat():
 
 for chunk in chat():
     # print(f"\"{chunk['message']['content']}\"", end="")
-    print(f'"{chunk}"')
+    print(chunk["message"]["content"], end="")
+    # print(f'"{chunk}"')
     if chunk["done"]:
         print("End")
