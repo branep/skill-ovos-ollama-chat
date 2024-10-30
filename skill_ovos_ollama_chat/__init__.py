@@ -141,6 +141,7 @@ class OllamaChatSkill(FallbackSkill):
         self.log.debug(f"Chat History: {self.chat_history}")
         try:
             for chunk in self.chat():
+                self.log.info(chunk)
                 if chunk["message"]["content"] in ["\n", "\r\n"]:
                     continue
                 look_ahead = chunk["message"]["content"]
