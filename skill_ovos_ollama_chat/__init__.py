@@ -147,7 +147,7 @@ class OllamaChatSkill(FallbackSkill):
                     continue
                 look_ahead = chunk["message"]["content"]
                 self.log.debug(f"Streaming from {self.model}: {look_ahead}")
-                if look_ahead:
+                if look_ahead or chunk["done"]:
                     if token != "":
                         if (
                             "." in token
