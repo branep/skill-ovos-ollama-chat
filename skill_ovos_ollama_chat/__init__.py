@@ -159,11 +159,11 @@ class OllamaChatSkill(FallbackSkill):
 
                         token_count = token_count + 1
                         phrase = phrase + token
-                        if token_count > 20 or look_ahead["done"] or sentence_end:
+                        if token_count > 20 or chunk["done"] or sentence_end:
                             self.log.info(f"Speaking: {phrase}")
                             self.speak_dialog(
                                 phrase,
-                                expect_response=look_ahead["done"],
+                                expect_response=chunk["done"],
                                 wait=True,
                             )
                             self.update_chat_history("assistant", phrase)
