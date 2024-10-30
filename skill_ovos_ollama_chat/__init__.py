@@ -140,6 +140,8 @@ class OllamaChatSkill(FallbackSkill):
         self.log.info(f"Chat History: {self.chat_history}")
         try:
             for chunk in self.chat():
+                if chunk in ["\n", "\r\n"]:
+                    continue
                 self.log.info(f"Streaming from {self.model}: {look_ahead}")
                 look_ahead = chunk["message"]["content"]
                 if look_ahead:
