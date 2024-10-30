@@ -1,0 +1,278 @@
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.179127834Z', 'message': {'role': 'assistant', 'content': 'The'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.17913193Z', 'message': {'role': 'assistant', 'content': ' blue'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.186752111Z', 'message': {'role': 'assistant', 'content': ' wh'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.203425333Z', 'message': {'role': 'assistant', 'content': 'ale'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.220099273Z', 'message': {'role': 'assistant', 'content': ' ('}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.236854643Z', 'message': {'role': 'assistant', 'content': 'B'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.254714417Z', 'message': {'role': 'assistant', 'content': 'ala'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.271871765Z', 'message': {'role': 'assistant', 'content': 'en'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.288601139Z', 'message': {'role': 'assistant', 'content': 'optera'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.305275583Z', 'message': {'role': 'assistant', 'content': ' mus'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.321840431Z', 'message': {'role': 'assistant', 'content': 'cul'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.33880263Z', 'message': {'role': 'assistant', 'content': 'us'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.355301936Z', 'message': {'role': 'assistant', 'content': ')'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.37236747Z', 'message': {'role': 'assistant', 'content': ' currently'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.388007227Z', 'message': {'role': 'assistant', 'content': ' holds'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.403176753Z', 'message': {'role': 'assistant', 'content': ' this'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.41809831Z', 'message': {'role': 'assistant', 'content': ' distinction'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.433142868Z', 'message': {'role': 'assistant', 'content': '.'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.447956977Z', 'message': {'role': 'assistant', 'content': ' They'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.462794268Z', 'message': {'role': 'assistant', 'content': ' are'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.478119056Z', 'message': {'role': 'assistant', 'content': ' not'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.492292131Z', 'message': {'role': 'assistant', 'content': ' only'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.506986582Z', 'message': {'role': 'assistant', 'content': ' the'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.521624289Z', 'message': {'role': 'assistant', 'content': ' largest'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.536233859Z', 'message': {'role': 'assistant', 'content': ' animal'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.550793291Z', 'message': {'role': 'assistant', 'content': ' that'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.565420163Z', 'message': {'role': 'assistant', 'content': ' has'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.579983367Z', 'message': {'role': 'assistant', 'content': ' ever'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.594633599Z', 'message': {'role': 'assistant', 'content': ' lived'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.609295514Z', 'message': {'role': 'assistant', 'content': ' but'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.624104345Z', 'message': {'role': 'assistant', 'content': ' also'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.638492909Z', 'message': {'role': 'assistant', 'content': ' considered'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.653114894Z', 'message': {'role': 'assistant', 'content': ' to'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.667691831Z', 'message': {'role': 'assistant', 'content': ' be'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.682263297Z', 'message': {'role': 'assistant', 'content': ' marine'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.696817374Z', 'message': {'role': 'assistant', 'content': ' animals'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.711380418Z', 'message': {'role': 'assistant', 'content': ' rather'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.725916258Z', 'message': {'role': 'assistant', 'content': ' than'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.7405456Z', 'message': {'role': 'assistant', 'content': ' terrest'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.755144259Z', 'message': {'role': 'assistant', 'content': 'rial'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.769727444Z', 'message': {'role': 'assistant', 'content': ' ones'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.784346685Z', 'message': {'role': 'assistant', 'content': ','}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.798951367Z', 'message': {'role': 'assistant', 'content': ' given'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.813625656Z', 'message': {'role': 'assistant', 'content': ' their'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.828271803Z', 'message': {'role': 'assistant', 'content': ' aqu'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.842862033Z', 'message': {'role': 'assistant', 'content': 'atic'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.858431647Z', 'message': {'role': 'assistant', 'content': ' habitat'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.873916868Z', 'message': {'role': 'assistant', 'content': ' and'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.890162211Z', 'message': {'role': 'assistant', 'content': ' life'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.904903159Z', 'message': {'role': 'assistant', 'content': ' history'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.920384309Z', 'message': {'role': 'assistant', 'content': ' of'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.936118506Z', 'message': {'role': 'assistant', 'content': ' sp'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.951309766Z', 'message': {'role': 'assistant', 'content': 'ending'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.966716344Z', 'message': {'role': 'assistant', 'content': ' most'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.982301197Z', 'message': {'role': 'assistant', 'content': ' of'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:44.998168492Z', 'message': {'role': 'assistant', 'content': ' time'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.014740673Z', 'message': {'role': 'assistant', 'content': ' under'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.030967822Z', 'message': {'role': 'assistant', 'content': 'water'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.045935139Z', 'message': {'role': 'assistant', 'content': '.'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.061386521Z', 'message': {'role': 'assistant', 'content': ' Blue'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.076805625Z', 'message': {'role': 'assistant', 'content': ' wh'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.092285328Z', 'message': {'role': 'assistant', 'content': 'ales'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.107736226Z', 'message': {'role': 'assistant', 'content': ' can'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.12326787Z', 'message': {'role': 'assistant', 'content': ' reach'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.138669168Z', 'message': {'role': 'assistant', 'content': ' lengths'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.154271431Z', 'message': {'role': 'assistant', 'content': ' up'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.16981311Z', 'message': {'role': 'assistant', 'content': ' to'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.185315746Z', 'message': {'role': 'assistant', 'content': ' '}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.200707099Z', 'message': {'role': 'assistant', 'content': '1'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.216150817Z', 'message': {'role': 'assistant', 'content': '0'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.231582895Z', 'message': {'role': 'assistant', 'content': '0'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.247751778Z', 'message': {'role': 'assistant', 'content': ' feet'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.262639461Z', 'message': {'role': 'assistant', 'content': ' ('}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.27818775Z', 'message': {'role': 'assistant', 'content': '3'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.293623226Z', 'message': {'role': 'assistant', 'content': '0'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.310086805Z', 'message': {'role': 'assistant', 'content': ' meters'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.324642158Z', 'message': {'role': 'assistant', 'content': '),'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.341090019Z', 'message': {'role': 'assistant', 'content': ' with'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.356582204Z', 'message': {'role': 'assistant', 'content': ' some'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.373116665Z', 'message': {'role': 'assistant', 'content': ' individuals'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.389612044Z', 'message': {'role': 'assistant', 'content': ' we'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.406145143Z', 'message': {'role': 'assistant', 'content': 'igh'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.422525017Z', 'message': {'role': 'assistant', 'content': 'ing'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.438853175Z', 'message': {'role': 'assistant', 'content': ' as'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.455388798Z', 'message': {'role': 'assistant', 'content': ' much'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.471755825Z', 'message': {'role': 'assistant', 'content': ' as'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.489150067Z', 'message': {'role': 'assistant', 'content': ' '}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.505629342Z', 'message': {'role': 'assistant', 'content': '2'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.522217203Z', 'message': {'role': 'assistant', 'content': '0'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.538692517Z', 'message': {'role': 'assistant', 'content': '0'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.555162032Z', 'message': {'role': 'assistant', 'content': ' tons'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.571646213Z', 'message': {'role': 'assistant', 'content': ' or'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.588382406Z', 'message': {'role': 'assistant', 'content': ' more'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.604857606Z', 'message': {'role': 'assistant', 'content': ' when'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.62139396Z', 'message': {'role': 'assistant', 'content': ' fully'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.637821989Z', 'message': {'role': 'assistant', 'content': ' grown'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.654288214Z', 'message': {'role': 'assistant', 'content': '.'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.6707479Z', 'message': {'role': 'assistant', 'content': ' Their'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.687383799Z', 'message': {'role': 'assistant', 'content': ' heart'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.703889685Z', 'message': {'role': 'assistant', 'content': ' alone'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.72051126Z', 'message': {'role': 'assistant', 'content': ' could'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.738084233Z', 'message': {'role': 'assistant', 'content': ' we'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.75369864Z', 'message': {'role': 'assistant', 'content': 'igh'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.770352453Z', 'message': {'role': 'assistant', 'content': ' about'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.787074589Z', 'message': {'role': 'assistant', 'content': ' a'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.803719821Z', 'message': {'role': 'assistant', 'content': ' ton'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.82036243Z', 'message': {'role': 'assistant', 'content': ','}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.836985528Z', 'message': {'role': 'assistant', 'content': ' and'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.854095266Z', 'message': {'role': 'assistant', 'content': ' their'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.870303851Z', 'message': {'role': 'assistant', 'content': ' tongue'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.887992073Z', 'message': {'role': 'assistant', 'content': ' is'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.905682306Z', 'message': {'role': 'assistant', 'content': ' the'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.924199204Z', 'message': {'role': 'assistant', 'content': ' color'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.940638347Z', 'message': {'role': 'assistant', 'content': ' of'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.958188268Z', 'message': {'role': 'assistant', 'content': ' bl'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.975808824Z', 'message': {'role': 'assistant', 'content': 'u'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:45.993871118Z', 'message': {'role': 'assistant', 'content': 'ish'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.013100615Z', 'message': {'role': 'assistant', 'content': '-'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.035207806Z', 'message': {'role': 'assistant', 'content': 'gre'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.055766738Z', 'message': {'role': 'assistant', 'content': 'y'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.073398263Z', 'message': {'role': 'assistant', 'content': ' and'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.092086455Z', 'message': {'role': 'assistant', 'content': ' has'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.108365237Z', 'message': {'role': 'assistant', 'content': ' surface'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.125865714Z', 'message': {'role': 'assistant', 'content': ' gro'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.143441059Z', 'message': {'role': 'assistant', 'content': 'ov'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.161011768Z', 'message': {'role': 'assistant', 'content': 'es'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.17917089Z', 'message': {'role': 'assistant', 'content': ' that'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.196209902Z', 'message': {'role': 'assistant', 'content': ' enable'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.213970962Z', 'message': {'role': 'assistant', 'content': ' them'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.231716787Z', 'message': {'role': 'assistant', 'content': ' to'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.249547211Z', 'message': {'role': 'assistant', 'content': ' produce'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.268174746Z', 'message': {'role': 'assistant', 'content': ' low'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.284414294Z', 'message': {'role': 'assistant', 'content': ' frequency'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.30233107Z', 'message': {'role': 'assistant', 'content': ' sounds'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.320963013Z', 'message': {'role': 'assistant', 'content': ' for'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.338562282Z', 'message': {'role': 'assistant', 'content': ' communication'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.356072573Z', 'message': {'role': 'assistant', 'content': ' across'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.373580715Z', 'message': {'role': 'assistant', 'content': ' vast'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.391078836Z', 'message': {'role': 'assistant', 'content': ' distances'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.408739552Z', 'message': {'role': 'assistant', 'content': ' in'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.426305342Z', 'message': {'role': 'assistant', 'content': ' o'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.444130596Z', 'message': {'role': 'assistant', 'content': 'ce'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.462233567Z', 'message': {'role': 'assistant', 'content': 'ans'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.480662306Z', 'message': {'role': 'assistant', 'content': ' where'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.49933093Z', 'message': {'role': 'assistant', 'content': ' they'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.517890784Z', 'message': {'role': 'assistant', 'content': ' typically'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.536287969Z', 'message': {'role': 'assistant', 'content': ' live'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.554564739Z', 'message': {'role': 'assistant', 'content': '.'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.572918002Z', 'message': {'role': 'assistant', 'content': ' The'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.591444156Z', 'message': {'role': 'assistant', 'content': ' di'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.610139288Z', 'message': {'role': 'assistant', 'content': 'et'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.628022639Z', 'message': {'role': 'assistant', 'content': 'ary'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.64669677Z', 'message': {'role': 'assistant', 'content': ' hab'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.665500145Z', 'message': {'role': 'assistant', 'content': 'its'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.684456675Z', 'message': {'role': 'assistant', 'content': ' include'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.70334522Z', 'message': {'role': 'assistant', 'content': ' tiny'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.721984529Z', 'message': {'role': 'assistant', 'content': ' sh'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.740483113Z', 'message': {'role': 'assistant', 'content': 'rim'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.758888109Z', 'message': {'role': 'assistant', 'content': 'p'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.777337728Z', 'message': {'role': 'assistant', 'content': '-'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.795737485Z', 'message': {'role': 'assistant', 'content': 'like'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.814209295Z', 'message': {'role': 'assistant', 'content': ' animals'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.832626546Z', 'message': {'role': 'assistant', 'content': ' called'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.851087868Z', 'message': {'role': 'assistant', 'content': ' kr'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.86940079Z', 'message': {'role': 'assistant', 'content': 'ill'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.887718054Z', 'message': {'role': 'assistant', 'content': ';'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.906147305Z', 'message': {'role': 'assistant', 'content': ' adult'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.927308487Z', 'message': {'role': 'assistant', 'content': 's'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.949192575Z', 'message': {'role': 'assistant', 'content': ' consume'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.966570903Z', 'message': {'role': 'assistant', 'content': ' about'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:46.984906512Z', 'message': {'role': 'assistant', 'content': ' three'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.003431467Z', 'message': {'role': 'assistant', 'content': ' tons'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.021861669Z', 'message': {'role': 'assistant', 'content': ' per'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.040305765Z', 'message': {'role': 'assistant', 'content': ' day'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.05954982Z', 'message': {'role': 'assistant', 'content': ' by'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.078976452Z', 'message': {'role': 'assistant', 'content': ' filtering'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.098347495Z', 'message': {'role': 'assistant', 'content': ' huge'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.118141436Z', 'message': {'role': 'assistant', 'content': ' volumes'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.138034348Z', 'message': {'role': 'assistant', 'content': ' of'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.160134364Z', 'message': {'role': 'assistant', 'content': ' se'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.179662834Z', 'message': {'role': 'assistant', 'content': 'aw'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.198929508Z', 'message': {'role': 'assistant', 'content': 'ater'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.219125258Z', 'message': {'role': 'assistant', 'content': ' through'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.238153188Z', 'message': {'role': 'assistant', 'content': ' their'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.25652827Z', 'message': {'role': 'assistant', 'content': ' b'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.275900755Z', 'message': {'role': 'assistant', 'content': 'ale'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.295461534Z', 'message': {'role': 'assistant', 'content': 'en'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.315427873Z', 'message': {'role': 'assistant', 'content': ' pl'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.334806276Z', 'message': {'role': 'assistant', 'content': 'ates'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.355080111Z', 'message': {'role': 'assistant', 'content': ','}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.374477777Z', 'message': {'role': 'assistant', 'content': ' an'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.392518579Z', 'message': {'role': 'assistant', 'content': ' incred'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.411783397Z', 'message': {'role': 'assistant', 'content': 'ible'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.431221353Z', 'message': {'role': 'assistant', 'content': ' fe'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.450787416Z', 'message': {'role': 'assistant', 'content': 'at'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.471135831Z', 'message': {'role': 'assistant', 'content': ' given'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.489256191Z', 'message': {'role': 'assistant', 'content': ' the'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.508652054Z', 'message': {'role': 'assistant', 'content': ' small'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.528138256Z', 'message': {'role': 'assistant', 'content': ' size'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.547326705Z', 'message': {'role': 'assistant', 'content': ' and'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.567131613Z', 'message': {'role': 'assistant', 'content': ' min'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.585901747Z', 'message': {'role': 'assistant', 'content': 'usc'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.60520666Z', 'message': {'role': 'assistant', 'content': 'ule'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.624513374Z', 'message': {'role': 'assistant', 'content': ' weight'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.644132588Z', 'message': {'role': 'assistant', 'content': ' ('}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.663089144Z', 'message': {'role': 'assistant', 'content': 'about'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.683285746Z', 'message': {'role': 'assistant', 'content': ' one'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.703446817Z', 'message': {'role': 'assistant', 'content': ' e'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.724103497Z', 'message': {'role': 'assistant', 'content': 'ighth'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.743804722Z', 'message': {'role': 'assistant', 'content': ' of'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.763980771Z', 'message': {'role': 'assistant', 'content': ' a'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.785205006Z', 'message': {'role': 'assistant', 'content': ' gram'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.805537571Z', 'message': {'role': 'assistant', 'content': ')'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.825702567Z', 'message': {'role': 'assistant', 'content': ' of'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.845825333Z', 'message': {'role': 'assistant', 'content': ' individual'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.865969699Z', 'message': {'role': 'assistant', 'content': ' kr'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.886206273Z', 'message': {'role': 'assistant', 'content': 'ill'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.906412514Z', 'message': {'role': 'assistant', 'content': '.'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.927158888Z', 'message': {'role': 'assistant', 'content': ' Despite'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.946888708Z', 'message': {'role': 'assistant', 'content': ' its'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.967101132Z', 'message': {'role': 'assistant', 'content': ' massive'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:47.987282999Z', 'message': {'role': 'assistant', 'content': ' size'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.007687114Z', 'message': {'role': 'assistant', 'content': ','}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.027978002Z', 'message': {'role': 'assistant', 'content': ' blue'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.048328734Z', 'message': {'role': 'assistant', 'content': ' wh'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.069067447Z', 'message': {'role': 'assistant', 'content': 'ales'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.089023194Z', 'message': {'role': 'assistant', 'content': ' are'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.109316288Z', 'message': {'role': 'assistant', 'content': ' gentle'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.13012956Z', 'message': {'role': 'assistant', 'content': ' gi'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.14990023Z', 'message': {'role': 'assistant', 'content': 'ants'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.170126185Z', 'message': {'role': 'assistant', 'content': ' who'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.191195882Z', 'message': {'role': 'assistant', 'content': ' pose'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.210377144Z', 'message': {'role': 'assistant', 'content': ' no'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.230551204Z', 'message': {'role': 'assistant', 'content': ' threat'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.250767009Z', 'message': {'role': 'assistant', 'content': ' to'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.27096494Z', 'message': {'role': 'assistant', 'content': ' humans'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.291778356Z', 'message': {'role': 'assistant', 'content': ';'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.311967985Z', 'message': {'role': 'assistant', 'content': ' however'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.333147627Z', 'message': {'role': 'assistant', 'content': ','}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.354837909Z', 'message': {'role': 'assistant', 'content': ' they'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.375660393Z', 'message': {'role': 'assistant', 'content': ' were'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.396900985Z', 'message': {'role': 'assistant', 'content': ' heavily'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.418242921Z', 'message': {'role': 'assistant', 'content': ' h'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.439534288Z', 'message': {'role': 'assistant', 'content': 'unted'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.460662835Z', 'message': {'role': 'assistant', 'content': ' during'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.481778575Z', 'message': {'role': 'assistant', 'content': ' the'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.505732688Z', 'message': {'role': 'assistant', 'content': ' '}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.525140106Z', 'message': {'role': 'assistant', 'content': '2'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.546429484Z', 'message': {'role': 'assistant', 'content': '0'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.567794856Z', 'message': {'role': 'assistant', 'content': 'th'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.589207914Z', 'message': {'role': 'assistant', 'content': ' century'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.610523438Z', 'message': {'role': 'assistant', 'content': ' nearly'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.633105373Z', 'message': {'role': 'assistant', 'content': ' driving'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.664879529Z', 'message': {'role': 'assistant', 'content': ' them'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.686222614Z', 'message': {'role': 'assistant', 'content': ' ext'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.707610653Z', 'message': {'role': 'assistant', 'content': 'inct'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.72890415Z', 'message': {'role': 'assistant', 'content': ' but'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.750325644Z', 'message': {'role': 'assistant', 'content': ' fort'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.772206603Z', 'message': {'role': 'assistant', 'content': 'un'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.794080717Z', 'message': {'role': 'assistant', 'content': 'ately'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.814500589Z', 'message': {'role': 'assistant', 'content': ' have'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.835572575Z', 'message': {'role': 'assistant', 'content': ' now'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.856866918Z', 'message': {'role': 'assistant', 'content': ' been'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.87808598Z', 'message': {'role': 'assistant', 'content': ' protected'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.899868707Z', 'message': {'role': 'assistant', 'content': ' intern'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.922155498Z', 'message': {'role': 'assistant', 'content': 'ation'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.942192247Z', 'message': {'role': 'assistant', 'content': 'ally'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.96335051Z', 'message': {'role': 'assistant', 'content': ' and'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:48.984749714Z', 'message': {'role': 'assistant', 'content': ' their'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:49.006424699Z', 'message': {'role': 'assistant', 'content': ' numbers'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:49.030204052Z', 'message': {'role': 'assistant', 'content': ' slowly'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:49.051040029Z', 'message': {'role': 'assistant', 'content': ' increasing'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:49.077600703Z', 'message': {'role': 'assistant', 'content': ' due'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:49.099874265Z', 'message': {'role': 'assistant', 'content': ' to'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:49.122161453Z', 'message': {'role': 'assistant', 'content': ' conservation'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:49.144524817Z', 'message': {'role': 'assistant', 'content': ' efforts'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:49.166656308Z', 'message': {'role': 'assistant', 'content': '.'}, 'done': False}
+{'model': 'phi3', 'created_at': '2024-10-30T12:51:49.189008433Z', 'message': {'role': 'assistant', 'content': ''}, 'done_reason': 'stop', 'done': True, 'total_duration': 5101496240, 'load_duration': 8052278, 'prompt_eval_count': 19, 'prompt_eval_duration': 16885000, 'eval_count': 278, 'eval_duration': 5035454000}

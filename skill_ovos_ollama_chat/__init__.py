@@ -140,8 +140,8 @@ class OllamaChatSkill(FallbackSkill):
 
         try:
             for chunk in self.chat():
-                look_ahead = chunk["message"]["content"]
                 self.log.debug(f"Streaming from {self.model}: {look_ahead}")
+                look_ahead = chunk["message"]["content"]
                 if look_ahead:
                     if token != "":
                         if (
@@ -171,6 +171,7 @@ class OllamaChatSkill(FallbackSkill):
             return True
         except Exception as e:
             self.log.error(f"Error while processing Ollama chat stream: {e}")
+            self.log.debug(f"Last chunk: {chunk}")
             return False
 
     def handle_fallback(self, message):
