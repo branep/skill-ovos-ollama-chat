@@ -5,6 +5,7 @@ from ovos_utils.process_utils import RuntimeRequirements
 from ovos_workshop.skills.fallback import FallbackSkill
 from ollama import Client as ocli
 import requests
+import re
 from langcodes import standardize_tag
 
 
@@ -154,8 +155,13 @@ class OllamaChatSkill(FallbackSkill):
                             or "!" in token
                             or "\n" in token
                         ):
-                            if token_count > 0:
-                                sentence_end = True
+                            if bool(re.search("[0-9]\.", token)):
+                                self.log.debug(
+                                    "Skipping potential ordered list item cut."
+                                )
+                            else:
+                                if token_count > 0:
+                                    sentence_end = True
 
                         token_count = token_count + 1
                         phrase = phrase + token
