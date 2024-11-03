@@ -1,4 +1,3 @@
-from ovos_workshop.decorators import intent_handler
 from datetime import datetime
 from ovos_utils import classproperty
 from ovos_utils.process_utils import RuntimeRequirements
@@ -26,7 +25,10 @@ class OllamaChatSkill(FallbackSkill):
 
     def initialize(self):
         self.fallback_priority = self.settings.get("priority", 90)
-        self.register_fallback(self.handle_fallback, int(self.fallback_priority))
+        self.register_fallback(
+            self.handle_fallback,
+            int(self.fallback_priority)
+            )
         if self.settings.get("handle_utterance", False):
             self.add_event("recognizer_loop:utterance", self.handle_utterance)
 
@@ -41,13 +43,17 @@ class OllamaChatSkill(FallbackSkill):
 
         self.context_timeout = self.settings.get("context_timout", 600)
         self.preamble = self.settings.get(
-            "preamble", "Your name is Jarvis. You are a helpful language model."
+            "preamble",
+            "Your name is Jarvis. You are a helpful language model."
         )
         self.chat_history = [{"role": "user", "message": self.preamble}]
         if self.settings.get("priority") != self.fallback_priority:
             self.log.info("Priority setting has changed. Resetting fallback")
             self.fallback_priority = self.settings.get("priority", 90)
-            self.register_fallback(self.handle_fallback, self.fallback_priority)
+            self.register_fallback(
+                self.handle_fallback,
+                self.fallback_priority
+                )
         self.model = self.settings.get("model", "phi3")
         self.connectors = self.settings.get("search_connectors", [])
         self.ollama_connect()
@@ -60,12 +66,16 @@ class OllamaChatSkill(FallbackSkill):
             self.ollama = ocli(self.url)
             self.log.info("Connected to Ollama.")
         except Exception as e:
-            self.log.error("Failed to connect Ollama client. " f"Got exception: {e}")
+            self.log.error(
+                "Failed to connect Ollama client. " f"Got exception: {e}"
+                )
 
     def detect_lang(self, text):
         self.log.debug(f"Detecting language for: {text}")
         try:
-            resp = requests.get(f"{self.fasttext_url}/language_detect?text={text}")
+            resp = requests.get(
+                f"{self.fasttext_url}/language_detect?text={text}"
+                )
             return standardize_tag(resp.json()[0][0])
         except requests.exceptions.RequestException as e:
             self.log.error("Lang detect error: %s", e)
@@ -93,12 +103,7 @@ class OllamaChatSkill(FallbackSkill):
         examples.extend(self.not_for_me)
 
     def chat(self):
-        now = datetime.now().strftime("%A, %d %b %Y %H:%M:%S")
         self.log.info("Sending to Ollama LLM: %s", self.model)
-        preamble = f"{self.preamble} Current date and time are \
-            {now}. You reply in the same language as in which you \
-            receive the query."
-
         try:
             return self.ollama.chat(
                 model=self.model,
@@ -155,7 +160,9 @@ class OllamaChatSkill(FallbackSkill):
                             or "!" in token
                             or "\n" in token
                         ):
-                            if "." in token and bool(re.search("[0-9]", look_ahead)):
+                            if "." in token and bool(
+                                re.search("[0-9]", look_ahead)
+                            ):
                                 self.log.debug(
                                     "Skipping potential ordered list item cut."
                                 )
