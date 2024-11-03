@@ -30,7 +30,10 @@ class OllamaChatSkill(FallbackSkill):
             int(self.fallback_priority)
             )
         if self.settings.get("handle_utterance", False):
-            self.add_event("recognizer_loop:utterance", self.handle_utterance)
+            self.add_event(
+                "recognizer_loop:utterance",
+                self.handle_utterance
+                )
 
         self.timestamp = datetime.now()
         self.reset_chat()
