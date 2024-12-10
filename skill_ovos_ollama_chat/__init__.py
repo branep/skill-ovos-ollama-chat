@@ -159,6 +159,13 @@ class OllamaChatSkill(FallbackSkill):
                         token_count = token_count + 1
                         phrase = phrase + token
                         if token_count > 20 or chunk["done"] or sentence_end:
+                            self.gui.show_text(
+                                self,
+                                phrase,
+                                title="Chat",
+                                override_idle=None,
+                                override_animations=False,
+                            )
                             self.log.debug(f"Speaking: {phrase}")
                             self.speak_dialog(
                                 phrase,
