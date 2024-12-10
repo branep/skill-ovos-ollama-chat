@@ -147,7 +147,12 @@ class OllamaChatSkill(FallbackSkill):
                 self.log.debug(f"Streaming from {self.model}: {look_ahead}")
                 if look_ahead or chunk["done"]:
                     if token != "":
-                        if "." in token or "?" in token or "!" in to or "\n" in token:
+                        if (
+                            "." in token
+                            or "?" in token
+                            or "!" in token
+                            or "\n" in token
+                        ):
                             if "." in token and bool(re.search("[0-9]", look_ahead)):
                                 self.log.debug(
                                     "Skipping potential ordered list item cut."
