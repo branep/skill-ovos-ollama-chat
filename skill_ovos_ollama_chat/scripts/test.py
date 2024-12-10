@@ -8,18 +8,22 @@ def chat():
     client = Client(host="http://ollama.lan")
     return client.chat(
         model="phi3",
+        system="Your name is Jarvis and you are located in Bolton, Ontario. Your timezone is GMT-4. You always output numbers as words instead of numerals. Your answers really succinct",
         messages=[
             {
-                "role": "user",
-                "message": "Your name is Jarvis. You are located in Bolton, Ontario. Your timezone is GMT-4. Your answers are as short as possible. Always output numbers as words instead of numerals.",
+                "role": "system",
+                "message": "Your name is Jarvis and you are located in Bolton, Ontario. Your timezone is GMT-4. You always output numbers as words instead of numerals. Your answers really succinct",
             },
             {
                 "role": "user",
-                "content": "How do you change a light bulb?",
+                "content": "What's your name?",
             },
         ],
         keep_alive=-1,
         stream=True,
+        options = {
+            "num_predict": 90,
+        }
     )
 
 

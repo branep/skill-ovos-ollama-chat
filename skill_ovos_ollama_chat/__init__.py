@@ -1,4 +1,3 @@
-from ovos_workshop.decorators import intent_handler
 from datetime import datetime
 from ovos_utils import classproperty
 from ovos_utils.process_utils import RuntimeRequirements
@@ -93,12 +92,7 @@ class OllamaChatSkill(FallbackSkill):
         examples.extend(self.not_for_me)
 
     def chat(self):
-        now = datetime.now().strftime("%A, %d %b %Y %H:%M:%S")
         self.log.info("Sending to Ollama LLM: %s", self.model)
-        preamble = f"{self.preamble} Current date and time are \
-            {now}. You reply in the same language as in which you \
-            receive the query."
-
         try:
             return self.ollama.chat(
                 model=self.model,
