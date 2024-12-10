@@ -37,12 +37,13 @@ class OllamaChatSkill(FallbackSkill):
     def on_settings_changed(self):
         self.url = self.settings.get("url")
         self.fasttext_url = self.settings.get("fasttext_url")
+        self.max_tokens = self.settings.get("max_tokens", 150)
 
         self.context_timeout = self.settings.get("context_timout", 600)
         self.preamble = self.settings.get(
             "preamble", "Your name is Jarvis. You are a helpful language model."
         )
-        self.chat_history = [{"role": "user", "message": self.preamble}]
+        self.chat_history = [{"role": "system", "message": self.preamble}]
         if self.settings.get("priority") != self.fallback_priority:
             self.log.info("Priority setting has changed. Resetting fallback")
             self.fallback_priority = self.settings.get("priority", 90)
@@ -99,6 +100,9 @@ class OllamaChatSkill(FallbackSkill):
                 messages=self.chat_history,
                 keep_alive=-1,
                 stream=True,
+                options={
+                    "num_predict": self.max_tokens,
+                },
             )
         except Exception as e:
             self.log.error(f"Ollama chat api error: {e}")
