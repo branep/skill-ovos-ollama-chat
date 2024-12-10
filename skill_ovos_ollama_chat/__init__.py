@@ -124,6 +124,7 @@ class OllamaChatSkill(FallbackSkill):
 
     def process_stream(self, message):
         phrase = ""
+        full_text = ""
         look_ahead = ""
         token_count = 0
         sentence_end = False
@@ -164,7 +165,7 @@ class OllamaChatSkill(FallbackSkill):
                         token_count = token_count + 1
                         phrase = phrase + token
                         if token_count > 20 or chunk["done"] or sentence_end:
-                            self.gui.show_text(phrase)
+                            full_text = full_text + phrase
                             self.log.debug(f"Speaking: {phrase}")
                             self.speak_dialog(
                                 phrase,
@@ -176,6 +177,7 @@ class OllamaChatSkill(FallbackSkill):
                             phrase = ""
                             sentence_end = False
                     token = look_ahead
+            self.gui.show_text(full_text)
 
             return True
         except Exception as e:
