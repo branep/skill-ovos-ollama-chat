@@ -139,7 +139,7 @@ class OllamaChatSkill(FallbackSkill):
 
         self.update_chat_history("user", message.data["utterance"])
         self.log.debug(f"Chat History: {self.chat_history}")
-        self.gui.show_page("Chat", 90)
+        self.gui.show_page("Chat.qml", 90)
         try:
             for chunk in self.chat():
                 self.log.debug(f"Received chunk: {chunk}")
