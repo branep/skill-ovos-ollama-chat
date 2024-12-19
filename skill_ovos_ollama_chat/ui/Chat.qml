@@ -20,10 +20,10 @@ Mycroft.Delegate {
             id: text_field
             anchors.top: parent.top
             anchors.left: parent.left
-
+            color: "#fff"
             height: parent.height
             width: parent.width
-                    text: sessionData.ChatText
+            text: sessionData.ChatText
             wrapMode: Text.WordWrap
 
         }
