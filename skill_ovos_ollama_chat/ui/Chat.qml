@@ -11,7 +11,14 @@ Mycroft.Delegate {
     onRectColorChanged: {
         fooRect.color = rectColor
     }
-
+    Rectangle { // Title Row with percentage sizing using the Application Window as reference
+        color: "#f8e6d9"
+        anchors.centerIn: parentItem
+        Label {
+            text: "Chat"
+            font.pointSize: 18 * (parentItem.width / applicationWindowWidth)
+        }
+    }
     Rectangle {
         id: fooRect
         anchors.fill: parent
@@ -26,6 +33,8 @@ Mycroft.Delegate {
             text: sessionData.ChatText
             wrapMode: Text.WordWrap
             fontSizeMode: Text.Fit
+            minimumPixelSize: 10
+            font.pixelSize: 72
         }
     }
 }
