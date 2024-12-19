@@ -25,7 +25,7 @@ Mycroft.Delegate {
             width: parent.width
             text: sessionData.ChatText
             wrapMode: Text.WordWrap
-
+            fontSizeMode: Text.Fit
         }
     }
 }
