@@ -16,25 +16,16 @@ Mycroft.Delegate {
         id: fooRect
         anchors.fill: parent
         color: "#000"
+        Text {
+            id: text_field
+            anchors.top: parent.top
+            anchors.left: parent.left
 
-        ColumnLayout {
-            anchors.fill: parent
-            Label {
-                id: chatText
-                Layout.fillWidth: true
-                Layout.fillHeight: true
-                Layout.margins: Mycroft.Units.gridUnit / 4
-                text: sessionData.ChatText
-                maximumLineCount: 1
-                horizontalAlignment: Text.AlignHLeft
-                verticalAlignment: Text.AlignVCenter
-                elide: Text.ElideRight
-                minimumPixelSize: 5
-                font.pixelSize: 42
-                fontSizeMode: Text.Fit
-                font.bold: false
-                color: Kirigami.Theme.textColor
-            }
+            height: parent.height
+            width: parent.width
+                    text: sessionData.ChatText
+            wrapMode: Text.WordWrap
+
         }
     }
 }
